@@ -6,6 +6,12 @@ def new1() {
     print "xyz = ${xyz}"
     print "abc= ${abc}"
 
+    if (abc == "Happy New year") {
+        print "Yes"
+
+    } else
+        print = "No"
+
 
 }
 
