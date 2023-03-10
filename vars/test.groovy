@@ -18,15 +18,13 @@ def new1() {
 //    while (x>y) {
 //        println "${y}"
 
-    }
-
     def fruits = ["apple", "banana", "orange"] ;
 
     for (i in fruits) {
 
         println(i);
     }
-
+}
 
 
 
