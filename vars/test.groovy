@@ -13,11 +13,18 @@ def new1() {
         print = "No"
     }
 
-    def x=2
-    def y=0
-    while (x>y) {
-        println "${y}"
+//    def x=2
+//    def y=0
+//    while (x>y) {
+//        println "${y}"
 
+    }
+
+    def fruits ["apple", "banana", "orange"]
+
+    for (i in fruits) {
+        println(i)
+    }
     }
 
 
