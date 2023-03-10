@@ -9,9 +9,9 @@ def new1() {
     if (abc == "Happy New year") {
         print "Yes"
 
-    } else
+    } else {
         print = "No"
-
+    }
 
 }
 
