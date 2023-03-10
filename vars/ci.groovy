@@ -1,3 +1,5 @@
+/**To call other file we call it with file name "common" and the defined function "compile" in that common.compile */
+
 def call() {
     pipeline {
 
@@ -10,7 +12,10 @@ def call() {
 
             stage('Compile/Build') {
                 steps {
-                    echo "compile"
+                    script{
+                        common.compile
+
+                    }
                 }
 
             }
