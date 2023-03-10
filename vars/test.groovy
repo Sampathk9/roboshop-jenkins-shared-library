@@ -1,4 +1,5 @@
-def new() {
+
+def new1() {
 
     print "hello"
     def xyz = "Hello"
