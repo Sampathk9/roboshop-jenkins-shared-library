@@ -20,7 +20,7 @@ def new1() {
 
     }
 
-    def fruits ["apple", "banana", "orange"]
+    def fruits = ["apple", "banana", "orange"]
 
     for (i in fruits) {
         println(i)
