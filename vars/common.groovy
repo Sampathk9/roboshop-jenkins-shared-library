@@ -1,3 +1,4 @@
+// here || refers or condition && defines and condition and \n is for new line and the parameter's will be picked by jenkins only
 def compile() {
     if (app_lang == "nodejs") {
         sh 'npm install'
